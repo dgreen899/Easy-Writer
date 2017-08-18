@@ -8,13 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		723444401F1B121C009DE435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234443F1F1B121C009DE435 /* AppDelegate.swift */; };
-		723444421F1B121C009DE435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444411F1B121C009DE435 /* ViewController.swift */; };
 		723444451F1B121C009DE435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723444431F1B121C009DE435 /* Main.storyboard */; };
 		723444481F1B121C009DE435 /* JournalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 723444461F1B121C009DE435 /* JournalApp.xcdatamodeld */; };
 		7234444A1F1B121C009DE435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723444491F1B121C009DE435 /* Assets.xcassets */; };
 		7234444D1F1B121C009DE435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7234444B1F1B121C009DE435 /* LaunchScreen.storyboard */; };
 		723444581F1B121C009DE435 /* JournalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444571F1B121C009DE435 /* JournalAppTests.swift */; };
 		723444631F1B121D009DE435 /* JournalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444621F1B121D009DE435 /* JournalAppUITests.swift */; };
+		723444711F1B13EF009DE435 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444701F1B13EF009DE435 /* AddItemViewController.swift */; };
+		723444791F1B2062009DE435 /* DisplayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444781F1B2061009DE435 /* DisplayTableViewController.swift */; };
+		7234448F1F1BBDCC009DE435 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234447B1F1BBDCC009DE435 /* Config.swift */; };
+		723444901F1BBDCC009DE435 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234447D1F1BBDCC009DE435 /* Parser.swift */; };
+		723444911F1BBDCC009DE435 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234447E1F1BBDCC009DE435 /* Provider.swift */; };
+		723444921F1BBDCC009DE435 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444801F1BBDCC009DE435 /* ArrayExtension.swift */; };
+		723444931F1BBDCC009DE435 /* Faker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444811F1BBDCC009DE435 /* Faker.swift */; };
+		723444941F1BBDCC009DE435 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444831F1BBDCC009DE435 /* Address.swift */; };
+		723444951F1BBDCC009DE435 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444841F1BBDCC009DE435 /* App.swift */; };
+		723444961F1BBDCC009DE435 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444851F1BBDCC009DE435 /* Business.swift */; };
+		723444971F1BBDCC009DE435 /* Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444861F1BBDCC009DE435 /* Commerce.swift */; };
+		723444981F1BBDCC009DE435 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444871F1BBDCC009DE435 /* Company.swift */; };
+		723444991F1BBDCC009DE435 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444881F1BBDCC009DE435 /* Generator.swift */; };
+		7234449A1F1BBDCC009DE435 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444891F1BBDCC009DE435 /* Internet.swift */; };
+		7234449B1F1BBDCC009DE435 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234448A1F1BBDCC009DE435 /* Lorem.swift */; };
+		7234449C1F1BBDCC009DE435 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234448B1F1BBDCC009DE435 /* Name.swift */; };
+		7234449D1F1BBDCC009DE435 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234448C1F1BBDCC009DE435 /* Number.swift */; };
+		7234449E1F1BBDCC009DE435 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234448D1F1BBDCC009DE435 /* PhoneNumber.swift */; };
+		7234449F1F1BBDCC009DE435 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234448E1F1BBDCC009DE435 /* Team.swift */; };
+		723444A11F1BF739009DE435 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723444A01F1BF739009DE435 /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +56,6 @@
 /* Begin PBXFileReference section */
 		7234443C1F1B121C009DE435 /* JournalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7234443F1F1B121C009DE435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		723444411F1B121C009DE435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		723444441F1B121C009DE435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		723444471F1B121C009DE435 /* JournalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JournalApp.xcdatamodel; sourceTree = "<group>"; };
 		723444491F1B121C009DE435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +67,26 @@
 		7234445E1F1B121D009DE435 /* JournalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		723444621F1B121D009DE435 /* JournalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAppUITests.swift; sourceTree = "<group>"; };
 		723444641F1B121D009DE435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723444701F1B13EF009DE435 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		723444781F1B2061009DE435 /* DisplayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayTableViewController.swift; sourceTree = "<group>"; };
+		7234447B1F1BBDCC009DE435 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		7234447D1F1BBDCC009DE435 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		7234447E1F1BBDCC009DE435 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		723444801F1BBDCC009DE435 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		723444811F1BBDCC009DE435 /* Faker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faker.swift; sourceTree = "<group>"; };
+		723444831F1BBDCC009DE435 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		723444841F1BBDCC009DE435 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		723444851F1BBDCC009DE435 /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		723444861F1BBDCC009DE435 /* Commerce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commerce.swift; sourceTree = "<group>"; };
+		723444871F1BBDCC009DE435 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		723444881F1BBDCC009DE435 /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		723444891F1BBDCC009DE435 /* Internet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		7234448A1F1BBDCC009DE435 /* Lorem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lorem.swift; sourceTree = "<group>"; };
+		7234448B1F1BBDCC009DE435 /* Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		7234448C1F1BBDCC009DE435 /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		7234448D1F1BBDCC009DE435 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		7234448E1F1BBDCC009DE435 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		723444A01F1BF739009DE435 /* UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +137,16 @@
 		7234443E1F1B121C009DE435 /* JournalApp */ = {
 			isa = PBXGroup;
 			children = (
+				7234447A1F1BBDCC009DE435 /* Source */,
 				7234443F1F1B121C009DE435 /* AppDelegate.swift */,
-				723444411F1B121C009DE435 /* ViewController.swift */,
 				723444431F1B121C009DE435 /* Main.storyboard */,
 				723444491F1B121C009DE435 /* Assets.xcassets */,
 				7234444B1F1B121C009DE435 /* LaunchScreen.storyboard */,
 				7234444E1F1B121C009DE435 /* Info.plist */,
 				723444461F1B121C009DE435 /* JournalApp.xcdatamodeld */,
+				723444701F1B13EF009DE435 /* AddItemViewController.swift */,
+				723444781F1B2061009DE435 /* DisplayTableViewController.swift */,
+				723444A01F1BF739009DE435 /* UpdateViewController.swift */,
 			);
 			path = JournalApp;
 			sourceTree = "<group>";
@@ -126,6 +167,54 @@
 				723444641F1B121D009DE435 /* Info.plist */,
 			);
 			path = JournalAppUITests;
+			sourceTree = "<group>";
+		};
+		7234447A1F1BBDCC009DE435 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7234447B1F1BBDCC009DE435 /* Config.swift */,
+				7234447C1F1BBDCC009DE435 /* Data */,
+				7234447F1F1BBDCC009DE435 /* Extensions */,
+				723444811F1BBDCC009DE435 /* Faker.swift */,
+				723444821F1BBDCC009DE435 /* Generators */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7234447C1F1BBDCC009DE435 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7234447D1F1BBDCC009DE435 /* Parser.swift */,
+				7234447E1F1BBDCC009DE435 /* Provider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7234447F1F1BBDCC009DE435 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				723444801F1BBDCC009DE435 /* ArrayExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		723444821F1BBDCC009DE435 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				723444831F1BBDCC009DE435 /* Address.swift */,
+				723444841F1BBDCC009DE435 /* App.swift */,
+				723444851F1BBDCC009DE435 /* Business.swift */,
+				723444861F1BBDCC009DE435 /* Commerce.swift */,
+				723444871F1BBDCC009DE435 /* Company.swift */,
+				723444881F1BBDCC009DE435 /* Generator.swift */,
+				723444891F1BBDCC009DE435 /* Internet.swift */,
+				7234448A1F1BBDCC009DE435 /* Lorem.swift */,
+				7234448B1F1BBDCC009DE435 /* Name.swift */,
+				7234448C1F1BBDCC009DE435 /* Number.swift */,
+				7234448D1F1BBDCC009DE435 /* PhoneNumber.swift */,
+				7234448E1F1BBDCC009DE435 /* Team.swift */,
+			);
+			path = Generators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +354,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723444421F1B121C009DE435 /* ViewController.swift in Sources */,
+				723444A11F1BF739009DE435 /* UpdateViewController.swift in Sources */,
+				7234449D1F1BBDCC009DE435 /* Number.swift in Sources */,
+				723444961F1BBDCC009DE435 /* Business.swift in Sources */,
+				723444991F1BBDCC009DE435 /* Generator.swift in Sources */,
+				723444711F1B13EF009DE435 /* AddItemViewController.swift in Sources */,
 				723444401F1B121C009DE435 /* AppDelegate.swift in Sources */,
+				723444921F1BBDCC009DE435 /* ArrayExtension.swift in Sources */,
 				723444481F1B121C009DE435 /* JournalApp.xcdatamodeld in Sources */,
+				7234449F1F1BBDCC009DE435 /* Team.swift in Sources */,
+				7234449E1F1BBDCC009DE435 /* PhoneNumber.swift in Sources */,
+				7234449C1F1BBDCC009DE435 /* Name.swift in Sources */,
+				7234449B1F1BBDCC009DE435 /* Lorem.swift in Sources */,
+				723444931F1BBDCC009DE435 /* Faker.swift in Sources */,
+				723444911F1BBDCC009DE435 /* Provider.swift in Sources */,
+				723444981F1BBDCC009DE435 /* Company.swift in Sources */,
+				723444791F1B2062009DE435 /* DisplayTableViewController.swift in Sources */,
+				7234448F1F1BBDCC009DE435 /* Config.swift in Sources */,
+				723444951F1BBDCC009DE435 /* App.swift in Sources */,
+				7234449A1F1BBDCC009DE435 /* Internet.swift in Sources */,
+				723444941F1BBDCC009DE435 /* Address.swift in Sources */,
+				723444971F1BBDCC009DE435 /* Commerce.swift in Sources */,
+				723444901F1BBDCC009DE435 /* Parser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +535,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ApptasticVoyage.JournalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -440,6 +549,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ApptasticVoyage.JournalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
