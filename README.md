@@ -12,3 +12,5 @@ Using Coredata
 
 ![alt tag](https://github.com/dgreen899/Easy-Writer/blob/master/EasyWriter5.png)
 
+Social stream, upvoting and sharing to networks coming soon!!!
+Also, tableview animation
