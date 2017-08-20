@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7201C5B51F4A289700EBEA44 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7201C5B41F4A289700EBEA44 /* CircularTransition.swift */; };
 		723444401F1B121C009DE435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234443F1F1B121C009DE435 /* AppDelegate.swift */; };
 		723444451F1B121C009DE435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723444431F1B121C009DE435 /* Main.storyboard */; };
 		723444481F1B121C009DE435 /* JournalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 723444461F1B121C009DE435 /* JournalApp.xcdatamodeld */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7201C5B41F4A289700EBEA44 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 		7234443C1F1B121C009DE435 /* JournalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7234443F1F1B121C009DE435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		723444441F1B121C009DE435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				723444701F1B13EF009DE435 /* AddItemViewController.swift */,
 				723444781F1B2061009DE435 /* DisplayTableViewController.swift */,
 				723444A01F1BF739009DE435 /* UpdateViewController.swift */,
+				7201C5B41F4A289700EBEA44 /* CircularTransition.swift */,
 			);
 			path = JournalApp;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				723444911F1BBDCC009DE435 /* Provider.swift in Sources */,
 				723444981F1BBDCC009DE435 /* Company.swift in Sources */,
 				723444791F1B2062009DE435 /* DisplayTableViewController.swift in Sources */,
+				7201C5B51F4A289700EBEA44 /* CircularTransition.swift in Sources */,
 				7234448F1F1BBDCC009DE435 /* Config.swift in Sources */,
 				723444951F1BBDCC009DE435 /* App.swift in Sources */,
 				7234449A1F1BBDCC009DE435 /* Internet.swift in Sources */,
@@ -630,6 +634,7 @@
 				723444691F1B121D009DE435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7234446A1F1B121D009DE435 /* Build configuration list for PBXNativeTarget "JournalAppTests" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +643,7 @@
 				7234446C1F1B121D009DE435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7234446D1F1B121D009DE435 /* Build configuration list for PBXNativeTarget "JournalAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -646,6 +652,7 @@
 				7234446F1F1B121D009DE435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

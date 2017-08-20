@@ -8,7 +8,9 @@
 
 import UIKit
 
-class DisplayTableViewController: UITableViewController, UISearchBarDelegate {
+class DisplayTableViewController: UITableViewController, UISearchBarDelegate , UIViewControllerTransitioningDelegate{
+    
+    let transition = CircularTransition()
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     var items: [Item] = []
@@ -226,6 +228,10 @@ class DisplayTableViewController: UITableViewController, UISearchBarDelegate {
     
     
 }
+    
+//add new button to adjust the transition
+    //,make custome button and add action to set as the center of the animation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "UpdateVC" {
             // Set item here
