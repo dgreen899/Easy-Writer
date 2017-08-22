@@ -12,5 +12,8 @@ Using Coredata
 
 ![alt tag](https://github.com/dgreen899/Easy-Writer/blob/master/EasyWriter5.png)
 
+
+Using Coredate for local storage
+This app also uses CircularTransition for segues
 Social stream, upvoting and sharing to networks coming soon!!!
 Also, tableview animation
