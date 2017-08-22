@@ -18,6 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="co4-AH-kh3">
+                            <rect key="frame" x="0.0" y="72" width="375" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="PoM-cZ-I0V" detailTextLabel="f40-DB-cIe" style="IBUITableViewCellStyleSubtitle" id="o9Z-2P-5v3">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -50,14 +55,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" prompt="Easy Writer" id="8PT-I0-uDy">
+                        <nil key="title"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="F2H-sK-XtS">
                             <color key="tintColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="bu3-6B-bmL" kind="presentation" id="1lY-ny-rZe"/>
+                                <segue destination="bu3-6B-bmL" kind="presentation" identifier="NewEntry" id="1lY-ny-rZe"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="clearButton" destination="co4-AH-kh3" id="oqk-zD-Wb9"/>
                         <segue destination="8A8-JK-o9f" kind="presentation" identifier="UpdateVC" id="Ho1-5q-FPB"/>
                     </connections>
                 </tableViewController>

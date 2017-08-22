@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7201C5B51F4A289700EBEA44 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7201C5B41F4A289700EBEA44 /* CircularTransition.swift */; };
+		7201C6761F4BFC3500EBEA44 /* EasyWriter1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 7201C6751F4BFC3500EBEA44 /* EasyWriter1024x1024.png */; };
 		723444401F1B121C009DE435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7234443F1F1B121C009DE435 /* AppDelegate.swift */; };
 		723444451F1B121C009DE435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723444431F1B121C009DE435 /* Main.storyboard */; };
 		723444481F1B121C009DE435 /* JournalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 723444461F1B121C009DE435 /* JournalApp.xcdatamodeld */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		7201C5B41F4A289700EBEA44 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		7201C6751F4BFC3500EBEA44 /* EasyWriter1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyWriter1024x1024.png; sourceTree = "<group>"; };
 		7234443C1F1B121C009DE435 /* JournalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7234443F1F1B121C009DE435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		723444441F1B121C009DE435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		7234443E1F1B121C009DE435 /* JournalApp */ = {
 			isa = PBXGroup;
 			children = (
+				7201C6751F4BFC3500EBEA44 /* EasyWriter1024x1024.png */,
 				7234447A1F1BBDCC009DE435 /* Source */,
 				7234443F1F1B121C009DE435 /* AppDelegate.swift */,
 				723444431F1B121C009DE435 /* Main.storyboard */,
@@ -333,6 +336,7 @@
 				7234444D1F1B121C009DE435 /* LaunchScreen.storyboard in Resources */,
 				7234444A1F1B121C009DE435 /* Assets.xcassets in Resources */,
 				723444451F1B121C009DE435 /* Main.storyboard in Resources */,
+				7201C6761F4BFC3500EBEA44 /* EasyWriter1024x1024.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

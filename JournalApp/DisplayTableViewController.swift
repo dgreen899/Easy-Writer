@@ -10,7 +10,10 @@ import UIKit
 
 class DisplayTableViewController: UITableViewController, UISearchBarDelegate , UIViewControllerTransitioningDelegate{
     
+    @IBOutlet weak var clearButton: UIButton!
+    
     let transition = CircularTransition()
+    
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     var items: [Item] = []
@@ -68,7 +71,7 @@ class DisplayTableViewController: UITableViewController, UISearchBarDelegate , U
         
         let textFieldInsideSearchBarLabel = textFieldInsideSearchBar!.value(forKey: "placeholderLabel") as? UILabel
         
-        textFieldInsideSearchBarLabel?.textColor = UIColor.white
+        textFieldInsideSearchBarLabel?.textColor = UIColor.lightGray
         
         // Clear Button Customization
         
@@ -229,15 +232,39 @@ class DisplayTableViewController: UITableViewController, UISearchBarDelegate , U
     
 }
     
-//add new button to adjust the transition
-    //,make custome button and add action to set as the center of the animation
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .dismiss
+        transition.startingPoint = clearButton.center
+        transition.circleColor = clearButton.backgroundColor!
+        
+        return transition
+        
+    }
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .present
+        transition.startingPoint = clearButton.center
+        transition.circleColor = clearButton.backgroundColor!
+        
+        return transition
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "UpdateVC" {
             // Set item here
             let updateVC = segue.destination as! UpdateViewController
             updateVC.item = items.reversed()[selectedIndex!]
+            
+            updateVC.transitioningDelegate = self
+            updateVC.modalPresentationStyle = .custom
+            
+        } else if segue.identifier == "NewEntry"{
+            let addVC = segue.destination as! AddItemViewController
+            
+            addVC.transitioningDelegate = self
+            addVC.modalPresentationStyle = .custom
+            
         }
+        
     }
 
 
